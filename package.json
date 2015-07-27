@@ -1,0 +1,27 @@
+{
+  "name": "config-cev-generator",
+  "private": false,
+  "version": "0.1.0",
+  "keywords": ["config", "node-config", "custom-environment-variables", "generator"],
+  "main": "lib/cev",
+  "bin": {
+    "cev": "cev-cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/SciSpike/node-config-cev-generator/issues"
+  },
+  "author": {
+    "name": "Matthew Adams",
+    "email": "matthew.adams@scispike.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SciSpike/node-config-cev-generator"
+  },
+  "preferGlobal": true,
+  "license": "MIT",
+  "dependencies": {
+    "stdio": "^0.2.7",
+    "config": "^1.12.0"
+  }
+}
