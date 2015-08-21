@@ -2,6 +2,8 @@
 
 This is a handy little utility that will generate JSON suitable for use as a [`config`](https://www.npmjs.com/package/config)-based project's `config/custom-environment-variables.json`.  (Note that throughout this project "cev" stands for "custom environment variables".)
 
+See blog post at http://www.scispike.com/blog/get-rid-of-node-js-config-grunt-work
+
 It really comes in handy when your configuration starts to get big and you forget to keep
 your `config/custom-environment-variables.json` file in sync with the rest of your configuration.
 
