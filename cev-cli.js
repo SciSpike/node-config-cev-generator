@@ -35,7 +35,7 @@ var opts = stdio.getopt({
   'casing': {
     key: 'c',
     args: 1,
-    description: 'Casing: "upper" or "lower".',
+    description: 'Casing: "' + cev.CASING_UPPER + '", "' + cev.CASING_LOWER + '", or "' + cev.CASING_UNCHANGED + '".',
     mandatory: false,
     default: cev.DEFAULT_CASING
   },
