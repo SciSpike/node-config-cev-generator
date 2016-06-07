@@ -20,14 +20,14 @@ var errln = function (text) {
 var opts = stdio.getopt({
   'separator': {
     key: 's',
-    description: 'Separator.',
+    description: "Separator.",
     args: 1,
     mandatory: false,
     default: cev.DEFAULT_SEPARATOR
   },
   'prefix': {
     key: 'p',
-    description: 'Prefix.',
+    description: "Prefix; use an at-sign ('@') for your application's name.",
     args: 1,
     mandatory: false,
     default: cev.DEFAULT_PREFIX
