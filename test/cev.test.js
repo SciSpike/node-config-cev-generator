@@ -8,6 +8,29 @@ describe('cev', function () {
     assert.deepEqual(cev(), {});
     done();
   });
+  it('should work with no prefix specified', function (done) {
+    var opts = {
+      noPrefix: true,
+      prefix: 'GOO'
+    };
+    var obj = {
+      foo: 1,
+      bar: {
+        sna: 1,
+        fu: 2
+      }
+    };
+    var expected = {
+      foo: 'FOO',
+      bar: {
+        sna: 'BAR_SNA',
+        fu: 'BAR_FU'
+      }
+    };
+    var actual = cev(obj, opts);
+    assert.deepEqual(actual, expected);
+    done();
+  });
   it('should work with a flat object with defaults', function (done) {
     var obj = {
       foo: 1

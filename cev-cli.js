@@ -32,6 +32,13 @@ var opts = stdio.getopt({
     mandatory: false,
     default: cev.DEFAULT_PREFIX
   },
+  'noprefix': {
+    key: 'n',
+    description: "Do not use a prefix; supercedes --prefix.",
+    args: 0,
+    mandatory: false,
+    default: cev.DEFAULT_NO_PREFIX
+  },
   'casing': {
     key: 'c',
     args: 1,
@@ -67,6 +74,7 @@ if (opts.verbose) {
 }
 
 var vars = cev.generate(require('config'), {
+  noPrefix: opts.noprefix,
   prefix: opts.prefix,
   separator: opts.separator,
   casing: opts.casing,
