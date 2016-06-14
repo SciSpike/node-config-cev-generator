@@ -1,7 +1,7 @@
 {
   "name": "config-cev-generator",
   "private": false,
-  "version": "0.1.6",
+  "version": "0.1.7",
   "keywords": [
     "config",
     "node-config",
