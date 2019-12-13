@@ -2,6 +2,12 @@
 
 This is a handy little utility that will generate JSON suitable for use as a [`config`](https://www.npmjs.com/package/config)-based project's `config/custom-environment-variables.json`.  (Note that throughout this project "cev" stands for "custom environment variables".)
 
+> DEPRECATION NOTE:
+> Since the time this package was created, SciSpike has been acquired by [Northscaler](https://www.northscaler.com).
+> There will be no further development on this module.
+> Instead, development will continue at [@northscaler/config-custom-environment-variables-generator](https://www.npmjs.com/package/@northscaler/config-custom-environment-variables-generator).
+> You can see all of Northscaler's public Node.js modules at https://www.npmjs.com/search?q=%40northscaler.
+
 See blog post at http://www.scispike.com/blog/get-rid-of-node-js-config-grunt-work
 
 It really comes in handy when your configuration starts to get big and you forget to keep
